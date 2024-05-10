@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.container>div {
+    border: 1px solid dodgerblue;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.images {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.text {
+    padding: 10px;
+    align-items: end;
+    height: 500px;
+}
+
+.div2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button1 {
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+    cursor: pointer;
+    transition: .5s;
+    color: white;
+    width: 100px;
+    height: 40px;
+    margin-top: -100px;
+    border-radius: 7px;
+    margin-left: 20px;
+}
+
+.button2 {
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+    cursor: pointer;
+    transition: .5s;
+    color: white;
+    width: 100px;
+    height: 40px;
+    margin-top: -100px;
+    margin-left: 320px;
+    position: absolute;
+    border-radius: 7px;
+}
+
+.button1:hover {
+    background-color: transparent;
+    border: 1px solid dodgerblue;
+    color: dodgerblue;
+    transition: .5s;
+}
+
+.button2:hover {
+    background-color: transparent;
+    border: 1px solid dodgerblue;
+    color: dodgerblue;
+    transition: .5s;
+}
